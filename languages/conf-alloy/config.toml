@@ -1,0 +1,5 @@
+name          = "conf.alloy"
+grammar       = "alloy"
+path_suffixes = ["aconf", "alloy"]
+line_comments = ["// "]
+tab_size      = 2
