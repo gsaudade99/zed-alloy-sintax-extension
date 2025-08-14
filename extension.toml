@@ -8,3 +8,7 @@ description   = "Syntax highlighting and language basics for conf.alloy"
 [grammars.alloy]
 repository = "https://github.com/mattsre/tree-sitter-alloy"
 rev        = "3e18eb4e97f06c57a3925f3d20bef6329a6eaef3"
+
+[language_servers.alloy-hover]
+name      = "Alloy Hover"
+languages = ["conf.alloy"]
